@@ -1,0 +1,18 @@
+ruby-curses (1.2.4-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:04:27 +0800
+
+ruby-curses (1.2.4-1) unstable; urgency=medium
+
+  * New upstream version 1.2.4.
+  * Update Vcs-*.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 24 Apr 2018 17:37:51 +0200
+
+ruby-curses (1.0.2-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Andrew Shadura <andrewsh@debian.org>  Tue, 09 Aug 2016 18:32:22 +0200

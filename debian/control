@@ -1,0 +1,28 @@
+Source: ruby-curses
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               libncursesw5-dev
+Standards-Version: 3.9.7
+# Vcs-Git: https://salsa.debian.org/ruby-team/ruby-curses.git
+# Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-curses.git
+Vcs-Git: https://git.dgit.debian.org/ruby-curses
+Vcs-Browser: https://browse.dgit.debian.org/ruby-curses.git/
+Homepage: http://github.com/ruby/curses
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-curses
+Architecture: any
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: curses binding for Ruby
+ Ruby binding for curses, ncurses, and PDCurses. curses is an
+ extension library for text UI applications.
+ .
+ This module is built with wide character support.
